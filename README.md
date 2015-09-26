@@ -5,4 +5,4 @@
 
 Программа запускается без аргументов (можно передать ей -h, тогда она скажет что аргументов вводить не надо)
 Все нужные ей данные она спрашивает в интерактивном режиме
-![alt text](https://github.com/Nikit0s/vk-api/api-example.png "Example")
+![Example](https://github.com/Nikit0s/vk-api/blob/master/api_example.png)
