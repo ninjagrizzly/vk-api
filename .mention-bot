@@ -1,16 +1,24 @@
 {
   "maxReviewers": 5, // Maximum  number of people to ping in the PR message, default is 3
-  "numFilesToCheck": 10, // Number of files to check against, default is 5
+  "numFilesToCheck": 5, // Number of files to check against, default is 5
   "alwaysNotifyForPaths": [
     {
       "name": "Nikit0s", // The user's Github username
       "files": ["*.*"] // The array of file globs associated with the user
+    },
+    {
+      "name": "FrodoTheTrue",
+      "files": ["*.*"]
     }
   ], // users will always be mentioned based on file glob
   "fallbackNotifyForPaths": [
     {
       "name": "Nikit0s", // The user's Github username
       "files": ["*.*"] // The array of file globs associated with the user
+    },
+    {
+      "name": "FrodoTheTrue",
+      "files": ["*.*"]
     }
   ], // users will be mentioned based on file glob if no other user was found
   "findPotentialReviewers": true, // mention-bot will try to find potential reviewers based on files history, if disabled, `alwaysNotifyForPaths` is used instead
